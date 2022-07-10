@@ -58,9 +58,11 @@ while next_reservation.lower() == "y":
     print(f"Total Nights:     {total_nights}")
     print(f"Total Price:      {total_cost}")
     print(" ")
+    
+    next_reservation = input("Would you like to make another reservation?  (y/n):  ")
+    print(" ")
 
-next_reservation = input("Would you like to make another reservation?  (y/n):  ")
-print(" ")
+
 
 
   
